@@ -1,0 +1,155 @@
+
+
+.footer .relrate-site .btn-relrate::before,
+.sc-support .support-area .link-support .ic-support,
+.sc-teams .teams-list .text-box .num::after,
+.sc-popup .group-filter .filter-item .title::before,
+.group-search .ic-box .ic-search,
+.sc-popup .group-filter .filter-item .title::after,
+.group-gnb .logo-box a{
+  background: url(../images/sp-pc.png) no-repeat;
+  background-size: 328px 205px;
+}
+
+
+.group-gnb .btn-nav,
+.group-gnb .btn-nav.close{
+  background: url(../images/sp-mo.png) no-repeat;
+  background-size: 195px 181px;
+}
+
+
+@media (max-width:1230px){ /* 스마트폰 */
+  .group-gnb .logo-box a{
+    background: url(../images/sp-mo.png) no-repeat;
+    background-size: 195px 181px;
+  }
+}
+
+
+@media (max-width:768px){ /* 스마트폰 */
+  .sc-teams .teams-list .text-box .num::after,
+  .sc-popup .btn-close,
+  .search-area-mo .ic-search,
+  .sc-support .support-area .link-support .ic-support,
+  .sc-popup .popup-search .btn-search,
+  .group-gnb .btn-nav{
+    background: url(../images/sp-mo.png) no-repeat;
+    background-size: 195px 181px;
+  }
+}
+
+
+
+
+/* blind */
+.blind{
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  position: absolute; 
+  clip: rect(0 0 0 0);
+}
+
+
+/* headline */
+.headline-area{
+  padding-bottom: 60px;
+}
+.headline-area .headline{
+  font-size: 64px;
+  line-height: 71px;
+  letter-spacing: -0.64px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.headline-area .title{
+  display: inline;
+  vertical-align: middle;
+  padding-right: 30px;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: -0.44px;
+  font-weight: bold;
+}
+.link-more{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  letter-spacing: -0.36px;
+  text-decoration-line: underline;
+}
+
+.sc-teams .text-area .title{
+  padding-right: 26px;
+}
+.sc-people .text-area .title{
+  margin-bottom: 20px;
+}
+.text-area .title{
+  display: inline;
+  line-height: 36px;
+  font-size: 35px;
+  letter-spacing: -0.5px;
+  font-weight: bold;
+}
+
+
+
+/* pagination */
+.pagination{
+  display: flex;
+  justify-content: end;
+  padding-top: 50px;
+  gap: 8px;
+}
+.pagination .btn{
+  background-position: -187px -172px;
+  width: 33px;
+  height: 32px;
+  background: url(../images/sp-pc.png) no-repeat;
+  background-size: 328px 205px;
+}
+.pagination .btn.swiper-button-disabled{
+  opacity: 0.5;
+}
+.pagination .btn.prev{
+  background-position: -187px -172px;
+}
+.pagination .btn.next{
+  background-position: -113px -172px;
+}
+
+@media (max-width:768px){ /* 스마트폰 */
+.pagination{
+  padding-top: 20px;
+}
+.pagination .btn{
+  width: 30px;
+  height: 30px;
+  background: url(../images/sp-mo.png) no-repeat;
+  background-size: 195px 181px;
+
+}
+.pagination .btn.prev{
+  background-position: -165px -70px;
+}
+.pagination .btn.next{
+  background-position: -35px -90px;
+}
+}
+
+
+/* select option */
+.search-box option[value=""][disabled] {
+  display: none;
+}
+
+
+/* input checkbox */
+input[type="checkbox"]{
+  display: none;
+}
